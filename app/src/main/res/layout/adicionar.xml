@@ -1,0 +1,57 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FF5722"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|bottom"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/edittext1"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:paddingLeft="15dp"
+				android:paddingTop="8dp"
+				android:paddingRight="2dp"
+				android:paddingBottom="8dp"
+				android:background="@android:color/transparent"
+				android:gravity="center_horizontal|bottom"
+				android:textSize="25sp"
+				android:textColor="#FFFFFF"
+				android:hint="00.00"
+				android:textColorHint="#FFFFFF"
+				android:inputType="numberDecimal"
+				android:imeOptions="actionDone" />
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="MZN"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:layout_marginTop="25dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Adicionar"
+			android:textSize="18sp"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+</LinearLayout>

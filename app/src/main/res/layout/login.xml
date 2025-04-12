@@ -1,0 +1,98 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear10"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear15"
+			android:layout_width="200dp"
+			android:layout_height="160dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical"
+			android:translationX="-90.0dp"
+			android:translationY="-40.0dp" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="25dp"
+			android:text="Bem vindo de volta!"
+			android:textSize="40sp"
+			android:textColor="#FF5722" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="25dp"
+			android:layout_marginTop="15dp"
+			android:layout_marginBottom="20dp"
+			android:text="Login"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#000000" />
+		<EditText
+			android:id="@+id/edittext1"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="8dp"
+			android:paddingRight="20dp"
+			android:paddingBottom="8dp"
+			android:background="#FFFFFF"
+			android:gravity="center_vertical"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Número de telefone"
+			android:textColorHint="#607D8B"
+			android:inputType="phone"
+			android:imeOptions="actionDone" />
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:layout_marginLeft="25dp"
+			android:layout_marginTop="30dp"
+			android:layout_marginRight="25dp"
+			android:padding="8dp"
+			android:text="LOGIN"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="right|center_vertical" />
+		<LinearLayout
+			android:id="@+id/linear14"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="40dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Ainda não tens uma conta\?"
+				android:textSize="16sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="4dp"
+				android:text="Criar nova"
+				android:textSize="18sp"
+				android:textColor="#FFC107" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear10"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear11"
+			android:layout_width="200dp"
+			android:layout_height="160dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:orientation="vertical"
+			android:translationX="-90.0dp"
+			android:translationY="-40.0dp" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="25dp"
+			android:layout_marginRight="25dp"
+			android:layout_marginBottom="25dp"
+			android:text="Olá, como te chamas\?"
+			android:textSize="40sp"
+			android:textColor="#FF5722" />
+		<EditText
+			android:id="@+id/username"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:layout_marginLeft="25dp"
+			android:layout_marginTop="25dp"
+			android:layout_marginRight="25dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:background="#EEEEEE"
+			android:gravity="center_vertical"
+			android:textSize="18sp"
+			android:textColor="#000000"
+			android:hint="Nome do usuario"
+			android:textColorHint="#000000"
+			android:imeOptions="actionGo" />
+		<LinearLayout
+			android:id="@+id/linear14"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="40dp"
+			android:padding="8dp"
+			android:background="#FFFFFF"
+			android:gravity="right|bottom"
+			android:orientation="horizontal">
+			<TextView
+				android:id="@+id/textview7"
+				android:layout_width="150dp"
+				android:layout_height="40dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Fazer login"
+				android:textSize="16sp"
+				android:textColor="#FF5722" />
+			<LinearLayout
+				android:id="@+id/linear16"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:orientation="vertical" />
+			<TextView
+				android:id="@+id/textview6"
+				android:layout_width="100dp"
+				android:layout_height="40dp"
+				android:layout_marginLeft="25dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginRight="25dp"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="Proximo"
+				android:textSize="16sp"
+				android:textColor="#FFFFFF" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
